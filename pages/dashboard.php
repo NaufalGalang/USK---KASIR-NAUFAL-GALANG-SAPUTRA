@@ -83,3 +83,5 @@ include '../includes/header.php';
 </div>
 
 <?php include '../includes/footer.php'; ?>
+
+<a href="../pages/logout.php">logout</a>

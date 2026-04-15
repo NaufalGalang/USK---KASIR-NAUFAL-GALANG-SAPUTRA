@@ -103,3 +103,5 @@ if (isset($_GET['hapus'])) {
 ?>
 
 <?php include '../includes/footer.php'; ?>
+
+<a href="../pages/logout.php">logout</a>

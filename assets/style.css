@@ -1,0 +1,145 @@
+ 
+.login-wrap {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+} 
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background: #2c3e50;
+    color: white;
+    padding: 20px 16px;
+    box-shadow: 2px 0 8px rgba(0,0,0,.2);
+}
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+
+th { background: #2c3e50; color: white; padding: 10px 12px; text-align: left; }
+
+td { padding: 9px 12px; border-bottom: 1px solid #eee; }
+
+tr:hover td { background: #f8f9fa; } */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.navbar {
+  background: #972828;
+  color: #fff;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #ccc;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 70px auto 20px;
+  padding: 0 15px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #972828;
+  color: #fff;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary { background: #3498db; color: #fff; }
+.btn-danger { background: #e74c3c; color: #fff; }
+
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.alert-success { background: #d4edda; }
+.alert-danger { background: #f8d7da; }
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #972828;
+  color: #fff;
+  position: fixed;
+  padding: 15px;
+}
+
+.sidebar a {
+  display: block;
+  color: #ccc;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #444;
+  color: #fff;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
